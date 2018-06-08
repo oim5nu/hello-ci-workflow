@@ -9,7 +9,7 @@ machine:
 dependencies:
   pre:
     # install eb
-    - sudo pip install awsebcli
+    - pip install awsebcli
   override:
     - docker build -t hello-ci-workflow .
 
